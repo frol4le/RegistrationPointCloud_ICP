@@ -18,8 +18,8 @@ def draw_registration_result(source, target, transformation):
 
 
 
-source = o3d.io.read_point_cloud("print1.pcd")
-target = o3d.io.read_point_cloud("print2.pcd")
+source = o3d.io.read_point_cloud("ModelPointCloud.pcd")
+target = o3d.io.read_point_cloud("ScannedPointCloud.pcd")
 threshold = 1000
 trans_init = np.asarray([[1, 0, 0, 0],
                          [0, 1, 0, 0],
